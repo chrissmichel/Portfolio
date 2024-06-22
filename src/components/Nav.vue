@@ -9,6 +9,6 @@
       <li class="item"><a href="#">Blog</a></li>
       <li class="item"><a href="#">Contact</a></li>
     </ul>
-  </nav>
+  </nav> 
 </div>
 </template>

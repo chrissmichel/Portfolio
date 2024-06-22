@@ -8,7 +8,7 @@
                                 <circle cx="12" cy="12" r="10"></circle>
                                 <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
                                 <path d="M2 12h20"></path>
-                            </svg> Lancaster Pennsylvania, United States </span>
+                            </svg> Lancaster Pennsylvania, United States </span> 
         <div class="profile-links">
           <a href="#">Resume</a> | <a href="#">Cover Letter</a> | <a href="#">Transcripts</a>
         </div>
