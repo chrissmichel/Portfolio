@@ -37,7 +37,7 @@ export default {
   },
   methods: {
     getImageUrl() {
-      return new URL('../assets/eyes.webp', import.meta.url).href;
+      return new URL('../assets/picture.jpeg', import.meta.url).href;
     }
   }
 };
