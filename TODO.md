@@ -4,3 +4,4 @@ June 22nd - 1:30 hours ✅
 TODO: 
 ## Work on navbar links, they should function similar to a SPA no page reload needed ##
 ## Dark mode button/ Functionality ##
+## Update ReadME ##
