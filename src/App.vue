@@ -7,6 +7,7 @@ import navbar from './components/Nav.vue'
  
   <Profile/>
   <navbar/> 
+  
 </template>
 
 <style scoped>

@@ -17,6 +17,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .profile-text {
@@ -49,7 +50,7 @@
 
 .profile-links a {
   text-decoration: none;
-  color: #0fa4d1;
+  color: #cc8501;
   font-size: 1rem;
   display: flex;
   align-items: center;
@@ -124,3 +125,47 @@
   margin: auto;
 }
 
+.nav
+{
+  justify-content: center;
+}
+
+.nav-item a {
+  color: #000000;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+  z-index: 1; /* Ensure the anchor is above the pseudo-element */
+}
+
+.nav-item a:hover{
+  color:#000000;
+}
+
+.nav-item a:after {
+  content: '';
+  background: #000000; /* Change this to the color you want for the underline */
+  bottom: 0;
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  z-index: -1; /* Push the pseudo-element below the anchor */
+}
+
+.nav-item a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}

@@ -10,7 +10,7 @@
                                 <path d="M2 12h20"></path>
                             </svg> Lancaster Pennsylvania, United States </span> 
         <div class="profile-links">
-          <a href="#">Resume</a> | <a href="#">Cover Letter</a> | <a href="#">Transcripts</a>
+          <a href="#">Resume</a> | <a href="#">Cover Letter</a> 
         </div>
         <div class="contact-icons">
           <a :href="'mailto:' + email" aria-label="My Email"><i class="fas fa-envelope"></i></a>
@@ -22,6 +22,7 @@
       <img :src="getImageUrl()" alt="Profile Picture" class="profile-image">
     </div>
   </div>
+  
 </template>
 
 <script>

@@ -1,14 +1,13 @@
 <template navbar>
-<div class="container">
-  <nav class="navbar">
-    <ul class="nav--list">
-      <li class="active"></li>
-      <li class="item"><a href="#">Home</a></li>
-      <li class="item"><a href="#">About</a></li>
-      <li class="item"><a href="#">Products</a></li>
-      <li class="item"><a href="#">Blog</a></li>
-      <li class="item"><a href="#">Contact</a></li>
-    </ul>
-  </nav> 
-</div>
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Projects</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">About Me</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Blog</a>
+  </li>
+</ul>
 </template>
